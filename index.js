@@ -5,7 +5,7 @@ import { Server } from "socket.io";
 const httpServer = createServer();
 const io = new Server(httpServer, {
   cors: {
-    origin: "https://choitet.web.app/",
+    origin: "https://choitet.web.app",
     methods: ["GET", "POST"],
   },
 });
